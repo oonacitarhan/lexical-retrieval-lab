@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 *.class
 /build/
+*.egg-info/
+.venv/
+results/
+.coverage
