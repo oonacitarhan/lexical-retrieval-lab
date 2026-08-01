@@ -1,0 +1,11 @@
+{
+  "created_on": "2026-11-01",
+  "ai_assisted": true,
+  "not_evidence_of_historical_experience": true,
+  "commit_timeline": {
+    "kind": "synthetic",
+    "start": "2024-11-01",
+    "end": "2026-10-31",
+    "author_and_committer_dates": "generated; not evidence of actual work dates"
+  }
+}
