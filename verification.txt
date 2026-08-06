@@ -1,5 +1,1 @@
-Actual verification date: 2026-11-01
-Command: python3 retrieve.py
-
-[quantum] 2.071: Quantum entanglement correlates two qubits.
-Self-tests passed
+Superseded by docs/verification.txt; run sh scripts/check.sh.
