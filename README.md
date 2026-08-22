@@ -22,7 +22,7 @@ python3 -m lexrank examples/corpus.json --evaluate examples/queries.json
 - `lexrank/cli.py` — argument parsing and JSON output.
 - `examples/` — small reproducible inputs.
 - `tests/` — API, numerical, and CLI checks.
-- `benchmarks/run.py` — timed representative workload.
+- `benchmarks/run.py` — timed representative workload; machine-dependent measurements.
 
 ## How it works
 
@@ -34,7 +34,7 @@ The index stores term counts, document frequencies, and lengths. BM25 scores use
 sh scripts/check.sh
 ```
 
-Seven test groups plus the original reference Python checks exercise reference cases, invalid inputs, and relevant invariants.
+Eight Python test groups exercise reference cases, invalid inputs, and relevant invariants.
 The complete local run is in [docs/verification.txt](docs/verification.txt).
 The [checks workflow](.github/workflows/check.yml) executes the same source checks.
 
