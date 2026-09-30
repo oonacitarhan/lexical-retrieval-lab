@@ -1,11 +1,12 @@
 Actual local verification: 2026-11-01
 
 PASS test_cli.test_cli_rejects_unknown_argument
+PASS test_cli.test_documented_workflow
 PASS test_cli.test_help
 PASS test_features.test_bad_overlap
 PASS test_features.test_chunk_overlap
 PASS test_features.test_metrics
 PASS test_features.test_roundtrip
 PASS test_reference.test_original_reference_cases
-7 tests passed
-{"workload": "Index({str(i):'quantum optics photon '+str(i) for i in range(100)}).search('photon optics',5)", "repetitions": 5, "median_seconds": 0.003406098003324587, "min_seconds": 0.0019850820026476867}
+8 tests passed
+{"workload": "Index({str(i):'quantum optics photon '+str(i) for i in range(100)}).search('photon optics',5)", "repetitions": 5, "median_seconds": 0.0019578069986891933, "min_seconds": 0.0018309220031369478}
